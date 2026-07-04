@@ -1,0 +1,1 @@
+timestamp,seq_num,distance_m,RSSI_dBm,SNR_dB,P_LoRa,state_label,packet_sent,packet_received,packet_status,radiation_wm2

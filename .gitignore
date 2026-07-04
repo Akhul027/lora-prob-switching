@@ -35,3 +35,26 @@ temp/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# ESP-IDF / PlatformIO build artifacts
+firmware-esp32/build/
+firmware-esp32/.pio/
+firmware-esp32/.vscode/
+firmware-esp32/managed_components/
+firmware-esp32/dependencies.lock
+
+# Generated binaries/maps
+*.elf
+*.bin
+*.map
+
+# Local datasets / logs if too large
+*.log
+
+# Firmware datasets/archive
+firmware-esp32/*.zip

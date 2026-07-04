@@ -1,0 +1,2 @@
+Pada kode esp32 ditambahkan mekanisme failsafe di kedua node, node A saat menggunakan starlink lora tetap menyala dan menunggu pesan ack, jika menerima pesan ack maka node A mengirim pesan di lora.
+Pada node B ditambahkan mekanisme mengirim pesan ack setiap 10 detik agar jika node A putus bisa tersambung lagi.
