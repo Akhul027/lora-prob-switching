@@ -1,0 +1,15 @@
+{
+  "include": [
+    "src",
+    "scripts",
+    "data"
+  ],
+  "extraPaths": [
+    ".",
+    "src"
+  ],
+  "venvPath": ".",
+  "venv": "venv",
+  "pythonVersion": "3.12",
+  "reportMissingImports": "warning"
+}

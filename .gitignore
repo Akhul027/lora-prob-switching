@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime logs
+results/logs/
+*.log
+
+# Temporary output
+output/
+tmp/
+temp/
+
+# Large media
+*.mp4
+*.mov
+*.avi
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,7 @@
+matplotlib
+pandas
+numpy
+paho-mqtt
+streamlit
+streamlit-autorefresh
+pyyaml
