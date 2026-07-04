@@ -45,7 +45,7 @@ SNR_MIN = -20.0
 SNR_MAX = 10.0
 
 DISTANCE_MIN = 0.0
-DISTANCE_MAX = 15.0
+DISTANCE_MAX = 0.2
 
 P_HIGH = 0.70
 P_SAFE = 0.75
@@ -330,7 +330,7 @@ class Dashboard:
 
         # ── Panel 5: Jarak ───────────────────
         self.ax5.plot(x, distance_list)
-        self.ax5.axhline(y=5000, linestyle=":", label="D_max = 5000 m")
+        self.ax5.axhline(y=5000, linestyle=":", label="D_max = 200 m")
         self.ax5.set_title("Jarak Kapal terhadap Gateway")
         self.ax5.set_ylabel("Jarak (m)")
         self.ax5.set_xlabel("Time Step")

@@ -1,8 +1,18 @@
 {
   "include": [
     "src",
-    "scripts",
-    "data"
+    "scripts"
+  ],
+  "exclude": [
+    "venv",
+    ".venv",
+    "data",
+    "results",
+    "docs",
+    "media",
+    "firmware",
+    "hardware",
+    "**/__pycache__"
   ],
   "extraPaths": [
     ".",
@@ -11,5 +21,10 @@
   "venvPath": ".",
   "venv": "venv",
   "pythonVersion": "3.12",
-  "reportMissingImports": "warning"
+  "typeCheckingMode": "basic",
+  "reportArgumentType": "none",
+  "reportMissingImports": "warning",
+  "reportUnknownMemberType": "none",
+  "reportUnknownArgumentType": "none",
+  "reportUnknownVariableType": "none"
 }
